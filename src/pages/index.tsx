@@ -6,7 +6,7 @@ import Link from "next/link";
 import { api } from "~/utils/api";
 
 const Home: NextPage = () => {
-  const hello = api.example.hello.useQuery({ text: "from tRPC" });
+  const { data } = api.post.getAll.useQuery();
 
   const user = useUser();
 
@@ -20,9 +20,13 @@ const Home: NextPage = () => {
       <main className="flex min-h-screen flex-col items-center justify-center bg-[#ededed]">
         <div>
           {!user.isSignedIn ? <SignInButton /> : <SignOutButton />}
-          
+          <SignUp path="/sign-up" routing="path" signInUrl="/sign-in" />
         </div>
-        <SignUp path="/sign-up" routing="path" signInUrl="/sign-in" />
+        <div>
+          {data?.map(post=>(
+            <div key={post.id}>{post.content}</div>
+          ))}
+        </div>
       </main>
     </>
   );
