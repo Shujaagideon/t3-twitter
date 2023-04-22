@@ -3,8 +3,10 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Features from "~/components/features";
+import Footer from "~/components/footer";
 import { Header } from "~/components/header";
 import LayoutDesktop from "~/components/layout";
+import Logos from "~/components/logos";
 import Tables from "~/components/tables";
 import Testimonials from "~/components/testimonials";
 import TopBar from "~/components/topbar";
@@ -25,8 +27,10 @@ const Home: NextPage = () => {
       </Head>
       <main className="min-h-screen h-full w-full">
           <Header/>
+          <Logos/>
           <Features/>
           <Testimonials/>
+          <Footer/>
       </main>
     </>
   );

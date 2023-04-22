@@ -7,7 +7,14 @@ import {
   ChevronRightIcon,
 } from '@radix-ui/react-icons';
 
-const DropdownMenuDemo = ({plans, change}: {plans: [], change: any}) => {
+type plan = {
+    name?: String;
+    desc?: String;
+    price?: String;
+}[]
+
+
+const DropdownMenuDemo = ({plans, change}: {plans: plan, change: any}) => {
   const [bookmarksChecked, setBookmarksChecked] = React.useState(true);
   const [urlsChecked, setUrlsChecked] = React.useState(false);
   const [person, setPerson] = React.useState('pedro');
