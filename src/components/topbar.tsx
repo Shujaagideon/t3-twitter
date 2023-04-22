@@ -25,6 +25,7 @@ export const UserBtns = ()=>{
         <>
             <div>
                 {!user.isSignedIn ?
+                    // <SignInButton className={"text-gray-800 text-sm font-semibold border px-4 py-1 rounded-lg hover:text-teal-600 hover:border-teal-600"}/> :
                     <SignInButton /> :
                     <Avatar/>
                 }
