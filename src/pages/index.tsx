@@ -5,6 +5,7 @@ import Link from "next/link";
 import Features from "~/components/features";
 import Footer from "~/components/footer";
 import { Header } from "~/components/header";
+import GlobePage from '~/components/GlobePage/GlobePage'
 import LayoutDesktop from "~/components/layout";
 import Logos from "~/components/logos";
 import Tables from "~/components/tables";
@@ -12,6 +13,7 @@ import Testimonials from "~/components/testimonials";
 import TopBar from "~/components/topbar";
 
 import { api } from "~/utils/api";
+import Hero from "~/components/hero";
 
 const Home: NextPage = () => {
   // const { data } = api.post.getAll.useQuery();
@@ -27,6 +29,7 @@ const Home: NextPage = () => {
       </Head>
       <main className="min-h-screen h-full w-full">
           <Header/>
+          <Hero/>
           <Logos/>
           <Features/>
           <Testimonials/>
