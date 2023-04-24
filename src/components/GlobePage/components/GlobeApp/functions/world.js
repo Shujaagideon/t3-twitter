@@ -94,6 +94,7 @@ export const world = ({ appObj, appProps }) => {
   };
 
   const updatePivotGroup = () => {
+    
     pivotGroup.rotation.x = appObj.scroll.scrollObj.currentY;
     pivotGroup.rotation.y = appObj.scroll.scrollObj.currentX;
 

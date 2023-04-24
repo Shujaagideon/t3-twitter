@@ -15,7 +15,7 @@ export const globe = ({ scaleGroup, pivotGroup }) => {
 
   container.matrixAutoUpdate = false;
 
-  const geometry = new THREE.SphereBufferGeometry(1, 50, 50);
+  const geometry = new THREE.SphereBufferGeometry(1.16, 50, 50);
   let mesh;
   let meshHalo;
 
@@ -29,7 +29,7 @@ export const globe = ({ scaleGroup, pivotGroup }) => {
   };
 
   const generateGlow = () => {
-    const geometry = new THREE.SphereBufferGeometry(1.02, 50, 50);
+    const geometry = new THREE.SphereBufferGeometry(1.165, 50, 50);
     const material = new THREE.ShaderMaterial({
       depthWrite: false,
       transparent: true,
@@ -45,7 +45,7 @@ export const globe = ({ scaleGroup, pivotGroup }) => {
     container.add(mesh);
     scaleGroup.add(mesh);
 
-    const geometryHalo = new THREE.CircleGeometry(1.32, 50);
+    const geometryHalo = new THREE.CircleGeometry(1.52, 50);
     const materialHalo = new THREE.ShaderMaterial({
       depthWrite: false,
       transparent: true,

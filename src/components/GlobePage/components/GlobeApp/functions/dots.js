@@ -116,6 +116,7 @@ export const dots = ({ pivotGroup, appObj, appProps }) => {
 
     container.add(points);
     pivotGroup.add(container);
+    pivotGroup.scale.multiplyScalar(1.16)
   };
 
   const init = () => {

@@ -8,15 +8,16 @@ const Nav = () => {
   return (
     <NavigationMenu.Root className="relative z-[1] w-screen lg:w-3/4  flex justify-center">
       <NavigationMenu.List className="center shadow-blackA7 m-0 flex list-none rounded-[6px] p-1">
-        <NavigationMenu.Item>
+        <NavigationMenu.Item className='lg:px-4'>
           <NavigationMenu.Link
             className=" dark:text-gray-100 text-gray-600 text-violet11 hover:bg-violet3 focus:shadow-violet7 block select-none rounded-[4px] px-3 py-2 text-[15px] font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px]"
-            href="/"
           >
-            Home
+            <Link href="/">
+              Home
+            </Link>
           </NavigationMenu.Link>
         </NavigationMenu.Item>
-        <NavigationMenu.Item>
+        <NavigationMenu.Item className='lg:px-4'>
           <NavigationMenu.Trigger className=" dark:text-gray-100 text-gray-600 hover:text-gray-500 group flex select-none items-center justify-between gap-[2px] rounded-[4px] px-3 py-2 text-[15px] font-medium leading-none outline-none focus:shadow-[0_0_0_2px]">
             About{' '}
             <CaretDownIcon
@@ -28,7 +29,7 @@ const Nav = () => {
             <ul className="one m-0 grid list-none gap-x-[10px] p-[22px] sm:w-[500px] sm:grid-cols-[0.75fr_1fr]">
               <li className="row-span-3 grid">
                 <NavigationMenu.Link asChild>
-                  <a
+                  <Link
                     className="focus:shadow-violet7 flex 
                     h-full w-full select-none flex-col justify-end rounded-[6px] bg-gradient-to-t from-slate-800 to-gray-200 p-[25px] no-underline outline-none focus:shadow-[0_0_0_2px]"
                     href="/"
@@ -44,24 +45,24 @@ const Nav = () => {
                     <p className="text-neutral-300 text-[14px] leading-[1.3]">
                       Unstyled, accessible components for React.
                     </p>
-                  </a>
+                  </Link>
                 </NavigationMenu.Link>
               </li>
 
-              <ListItem to="https://stitches.dev/" title="Stitches">
-                CSS-in-JS with best-in-class developer experience.
+              <ListItem to="pricing" title="Pricing">
+                Find the best value for you. Choose from our curated pricing
               </ListItem>
-              <ListItem to="/colors" title="Colors">
-                Beautiful, thought-out palettes with auto dark mode.
+              <ListItem to="/" title="The Company">
+                Learn about the beautifull team working behind the scenes
               </ListItem>
-              <ListItem to="https://icons.radix-ui.com/" title="Icons">
-                A crisp set of 15x15 icons, balanced and consistent.
+              <ListItem to="/questions" title="Faqs">
+                A list of most asked questions and their responses
               </ListItem>
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
 
-        <NavigationMenu.Item>
+        <NavigationMenu.Item className='lg:px-4'>
           <NavigationMenu.Trigger className="dark:text-gray-100 text-gray-600 text-violet11 hover:bg-violet3 focus:shadow-violet7 group flex select-none items-center justify-between gap-[2px] rounded-[4px] px-3 py-2 text-[15px] font-medium leading-none outline-none focus:shadow-[0_0_0_2px]">
             Overview{' '}
             <CaretDownIcon
