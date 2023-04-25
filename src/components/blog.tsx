@@ -6,7 +6,7 @@ const BlogComponent = () => {
         <section className="relative py-20 px-36 dark:bg-gray-900">
             <img className="hidden lg:block absolute top-0 left-0 mt-20" src="https://shuffle.dev/zeus-assets/icons/dots/blue-dot-left-bars.svg" alt=""/>
             <img className="hidden lg:block absolute top-0 right-0 mt-52" src="https://shuffle.dev/zeus-assets/icons/dots/yellow-dot-right-shield.svg" alt=""/>
-            <div className="container px-4 mx-auto">
+            <div className="container lg:px-4 mx-auto">
                 <div className="max-w-2xl mx-auto mb-20 text-center">
                     <span className="text-xs text-teal-400 font-semibold">What&apos;s new at Shuffle</span>
                     <h2 className="mt-8 mb-10 text-4xl font-semibold font-heading dark:text-gray-300">Lorem ipsum dolor sit amet consectutar domor at elis</h2>

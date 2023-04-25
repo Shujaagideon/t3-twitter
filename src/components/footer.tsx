@@ -15,7 +15,7 @@ const Footer:React.FC = ()=>{
                                 <span>Sign Up Now</span>
 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    <path strokeLinecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                                 </svg>
                             </a>
                         </div>
@@ -28,9 +28,9 @@ const Footer:React.FC = ()=>{
                             <p className="font-semibold text-gray-800 dark:text-white">Quick Link</p>
 
                             <div className="flex flex-col items-start mt-5 space-y-2">
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Home</a>
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Who We Are</a>
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Our Philosophy</a>
+                                <a href="/" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Home</a>
+                                <a href="/about" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">The Company</a>
+                                <a href="/features" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Features</a>
                             </div>
                         </div>
 
@@ -38,9 +38,9 @@ const Footer:React.FC = ()=>{
                             <p className="font-semibold text-gray-800 dark:text-white">Industries</p>
 
                             <div className="flex flex-col items-start mt-5 space-y-2">
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Retail & E-Commerce</a>
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Information Technology</a>
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Finance & Insurance</a>
+                                <a href="/pricing" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Pricing</a>
+                                <a href="/questions" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">FAQs</a>
+                                <a href="/career" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">careers</a>
                             </div>
                         </div>
 
@@ -48,9 +48,9 @@ const Footer:React.FC = ()=>{
                             <p className="font-semibold text-gray-800 dark:text-white">Services</p>
 
                             <div className="flex flex-col items-start mt-5 space-y-2">
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Translation</a>
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Proofreading & Editing</a>
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Content Creation</a>
+                                <a href="/tools" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Tools</a>
+                                <a href="/contacts" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Contacts</a>
+                                <a href="/policy" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">Privacy policy</a>
                             </div>
                         </div>
 
@@ -58,8 +58,8 @@ const Footer:React.FC = ()=>{
                             <p className="font-semibold text-gray-800 dark:text-white">Contact Us</p>
 
                             <div className="flex flex-col items-start mt-5 space-y-2">
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">+880 768 473 4978</a>
-                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">info@merakiui.com</a>
+                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">+254 000 000 000</a>
+                                <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-teal-400 hover:underline hover:text-teal-500">info@ourmail.com</a>
                             </div>
                         </div>
                     </div>

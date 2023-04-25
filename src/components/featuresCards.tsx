@@ -51,7 +51,7 @@ const fadeIn = (direction:string, type:string, delay:number, duration:number) =>
 
 
 const ExploreCard = ({ id, imgUrl, title, icon, active, handleClick }:{id:any, imgUrl:string, title:string, icon:any, active:any, handleClick:any}) => (
-  <motion.div
+  <div
     // variants={fadeIn('up', 'inertia', 0, 7000)}
     style={{backgroundImage: `url(${imgUrl})`}}
     className={`relative ${
@@ -75,7 +75,7 @@ const ExploreCard = ({ id, imgUrl, title, icon, active, handleClick }:{id:any, i
         {title}
       </h2>
     </div>
-  </motion.div>
+  </div>
 );
 
 

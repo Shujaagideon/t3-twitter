@@ -81,22 +81,22 @@ const Nav = () => {
           </NavigationMenu.Trigger>
           <NavigationMenu.Content className=" bg-slate-100 absolute top-0 left-0 w-full sm:w-auto">
             <ul className="m-0 grid list-none gap-x-[10px] p-[22px] sm:w-[600px] sm:grid-flow-col sm:grid-rows-3">
-              <ListItem title="Introduction" to="/docs/primitives/overview/introduction">
+              <ListItem title="Blog" to="/blog">
                 Build high-quality, accessible design systems and web apps.
               </ListItem>
-              <ListItem title="Getting started" to="/docs/primitives/overview/getting-started">
+              <ListItem title="Tools" to="/tools">
                 A quick tutorial to get you up and running with Radix Primitives.
               </ListItem>
-              <ListItem title="Styling" to="/docs/primitives/overview/styling">
+              <ListItem title="Career" to="/career">
                 Unstyled and compatible with any styling solution.
               </ListItem>
-              <ListItem title="Animation" to="/docs/primitives/overview/animation">
+              <ListItem title="Contacts" to="/contacts">
                 Use CSS keyframes or any animation library of your choice.
               </ListItem>
-              <ListItem title="Accessibility" to="/docs/primitives/overview/accessibility">
+              <ListItem title="Policy" to="/policy">
                 Tested in a range of browsers and assistive technologies.
               </ListItem>
-              <ListItem title="Releases" to="/docs/primitives/overview/releases">
+              <ListItem title="Dashboard" to="/dashboard">
                 Radix Primitives releases and their changelogs.
               </ListItem>
             </ul>

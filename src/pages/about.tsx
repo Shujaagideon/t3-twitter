@@ -3,6 +3,7 @@ import AboutHero from '~/components/aboutHero'
 import Footer from '~/components/footer'
 import { Header } from '~/components/header'
 import Logos from '~/components/logos'
+import TeamsCore from '~/components/teamsCore'
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
         <Header/>
         <AboutHero/>
         <Logos/>
+        <TeamsCore/>
         <Footer/>
     </>
   )

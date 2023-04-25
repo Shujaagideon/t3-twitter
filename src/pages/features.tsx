@@ -5,6 +5,7 @@ import FeaturesContent from '~/components/featuresContent'
 import Footer from '~/components/footer'
 import { Header } from '~/components/header'
 import Logos from '~/components/logos'
+import Testimonials from '~/components/testimonials'
 
 const Features = () => {
   return (
@@ -13,7 +14,7 @@ const Features = () => {
         <FeaturesContent/>
         <Logos/>
         <FeaturesTemplate/>
-        {/* <FeatureSteps/> */}
+        <Testimonials/>
         <Footer/>
     </>
   )

@@ -24,7 +24,7 @@ export const UserBtns = ()=>{
     if(!user) return null
     return(
         <>
-            <div>
+            <div className='hidden md:block'>
                 {!user.isSignedIn ?
                     // <SignInButton className={"text-gray-800 text-sm font-semibold border px-4 py-1 rounded-lg hover:text-teal-600 hover:border-teal-600"}/> :
                     <SignInButton /> :
@@ -67,7 +67,7 @@ const BreadCrumbs = ()=>{
 
             <span className="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                 </svg>
             </span>
 
@@ -77,7 +77,7 @@ const BreadCrumbs = ()=>{
 
             <span className="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                 </svg>
             </span>
 
@@ -87,7 +87,7 @@ const BreadCrumbs = ()=>{
 
             <span className="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                 </svg>
             </span>
 

@@ -15,7 +15,7 @@ const Faq = () => {
                 <div className="relative rounded-lg bg-gray-100 p-5 pt-8">
                     <span className="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-teal-700 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                        <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
                     </svg>
                     </span>
 
@@ -25,7 +25,7 @@ const Faq = () => {
                 <div className="relative rounded-lg bg-gray-100 p-5 pt-8">
                     <span className="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-teal-700 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                        <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
                     </svg>
                     </span>
 
@@ -35,7 +35,7 @@ const Faq = () => {
                 <div className="relative rounded-lg bg-gray-100 p-5 pt-8">
                     <span className="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-teal-700 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                        <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
                     </svg>
                     </span>
 
@@ -45,7 +45,7 @@ const Faq = () => {
                 <div className="relative rounded-lg bg-gray-100 p-5 pt-8">
                     <span className="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-teal-700 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                        <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
                     </svg>
                     </span>
 
@@ -55,7 +55,7 @@ const Faq = () => {
                 <div className="relative rounded-lg bg-gray-100 p-5 pt-8">
                     <span className="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-teal-700 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                        <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
                     </svg>
                     </span>
 
@@ -65,7 +65,7 @@ const Faq = () => {
                 <div className="relative rounded-lg bg-gray-100 p-5 pt-8">
                     <span className="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-teal-700 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                        <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
                     </svg>
                     </span>
 
@@ -94,7 +94,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
@@ -109,7 +109,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
@@ -141,7 +141,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
@@ -156,7 +156,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
@@ -188,7 +188,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
@@ -203,7 +203,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
@@ -235,7 +235,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
@@ -250,7 +250,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
@@ -282,7 +282,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
@@ -297,7 +297,7 @@ const Faq = () => {
                         stroke-width="2"
                         >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
