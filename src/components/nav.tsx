@@ -18,6 +18,15 @@ const Nav = () => {
           </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item className='lg:px-4'>
+          <NavigationMenu.Link
+            className=" dark:text-gray-100 text-gray-600 text-violet11 hover:bg-violet3 focus:shadow-violet7 block select-none rounded-[4px] px-3 py-2 text-[15px] font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px]"
+          >
+            <Link href="/features">
+              Features
+            </Link>
+          </NavigationMenu.Link>
+        </NavigationMenu.Item>
+        <NavigationMenu.Item className='lg:px-4'>
           <NavigationMenu.Trigger className=" dark:text-gray-100 text-gray-600 hover:text-gray-500 group flex select-none items-center justify-between gap-[2px] rounded-[4px] px-3 py-2 text-[15px] font-medium leading-none outline-none focus:shadow-[0_0_0_2px]">
             About{' '}
             <CaretDownIcon
@@ -52,7 +61,7 @@ const Nav = () => {
               <ListItem to="pricing" title="Pricing">
                 Find the best value for you. Choose from our curated pricing
               </ListItem>
-              <ListItem to="/" title="The Company">
+              <ListItem to="/about" title="The Company">
                 Learn about the beautifull team working behind the scenes
               </ListItem>
               <ListItem to="/questions" title="Faqs">

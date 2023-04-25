@@ -3,10 +3,10 @@ import React from 'react'
 const Faq = () => {
   return (
     <>
-        <div className="bg-white py-6 sm:py-8 lg:py-12">
+        <div className="bg-white dark:bg-gray-800 py-6 sm:py-8 lg:py-12">
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <div className="mb-10 md:mb-16">
-                <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Frequently asked questions</h2>
+                <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-gray-200 md:mb-6 lg:text-3xl">Frequently asked questions</h2>
 
                 <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
                 </div>
@@ -76,18 +76,18 @@ const Faq = () => {
             </div>
         </div>
 
-        <div className='flex justify-center items-center mt-16'>
-            <div className="bg-white border w-1/2 border-gray-200 divide-y divide-gray-200 rounded-xl">
+        <div className='flex justify-center items-center py-20 dark:bg-gray-900'>
+            <div className="bg-white dark:bg-gray-800 border w-1/2 border-gray-200 dark:border-gray-600 dark:divide-gray-600  divide-y divide-gray-200 rounded-xl">
                 <details className="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
                     <summary className="flex items-center justify-between cursor-pointer">
-                    <h2 className="text-lg font-medium text-gray-900">
+                    <h2 className="text-lg font-medium text-gray-900 dark:text-gray-200">
                         Lorem ipsum dolor sit amet consectetur adipisicing?
                     </h2>
 
                     <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
+                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0 dark:fill-gray-300"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -102,7 +102,7 @@ const Faq = () => {
 
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
+                        className="absolute inset-0 w-5 h-5 opacity-0 fill-gray-300 group-open:opacity-100"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -117,7 +117,7 @@ const Faq = () => {
                     </span>
                     </summary>
 
-                    <p className="mt-4 leading-relaxed text-gray-700">
+                    <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
                     molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
                     voluptate dicta quo officiis explicabo consequuntur distinctio corporis
@@ -127,14 +127,14 @@ const Faq = () => {
 
                 <details className="group p-6 [&_summary::-webkit-details-marker]:hidden">
                     <summary className="flex items-center justify-between cursor-pointer">
-                    <h2 className="text-lg font-medium text-gray-900">
+                    <h2 className="text-lg font-medium text-gray-900 dark:text-gray-200">
                         Lorem ipsum dolor sit amet consectetur adipisicing?
                     </h2>
 
                     <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
+                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0 fill-gray-300"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -149,7 +149,7 @@ const Faq = () => {
 
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
+                        className="absolute inset-0 w-5 h-5 opacity-0 fill-gray-300 group-open:opacity-100"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -164,7 +164,7 @@ const Faq = () => {
                     </span>
                     </summary>
 
-                    <p className="mt-4 leading-relaxed text-gray-700">
+                    <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
                     molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
                     voluptate dicta quo officiis explicabo consequuntur distinctio corporis
@@ -174,14 +174,14 @@ const Faq = () => {
 
                 <details className="group p-6 [&_summary::-webkit-details-marker]:hidden">
                     <summary className="flex items-center justify-between cursor-pointer">
-                    <h2 className="text-lg font-medium text-gray-900">
+                    <h2 className="text-lg font-medium text-gray-900 dark:text-gray-200">
                         Lorem ipsum dolor sit amet consectetur adipisicing?
                     </h2>
 
                     <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
+                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0 fill-gray-300"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -196,7 +196,7 @@ const Faq = () => {
 
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
+                        className="absolute inset-0 w-5 h-5 opacity-0 fill-gray-300 group-open:opacity-100"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -211,7 +211,7 @@ const Faq = () => {
                     </span>
                     </summary>
 
-                    <p className="mt-4 leading-relaxed text-gray-700">
+                    <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
                     molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
                     voluptate dicta quo officiis explicabo consequuntur distinctio corporis
@@ -221,14 +221,14 @@ const Faq = () => {
 
                 <details className="group p-6 [&_summary::-webkit-details-marker]:hidden">
                     <summary className="flex items-center justify-between cursor-pointer">
-                    <h2 className="text-lg font-medium text-gray-900">
+                    <h2 className="text-lg font-medium text-gray-900 dark:text-gray-200">
                         Lorem ipsum dolor sit amet consectetur adipisicing?
                     </h2>
 
                     <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
+                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0 fill-gray-300"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -243,7 +243,7 @@ const Faq = () => {
 
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
+                        className="absolute inset-0 w-5 h-5 opacity-0 fill-gray-300 group-open:opacity-100"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -258,7 +258,7 @@ const Faq = () => {
                     </span>
                     </summary>
 
-                    <p className="mt-4 leading-relaxed text-gray-700">
+                    <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
                     molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
                     voluptate dicta quo officiis explicabo consequuntur distinctio corporis
@@ -268,14 +268,14 @@ const Faq = () => {
 
                 <details className="group p-6 [&_summary::-webkit-details-marker]:hidden">
                     <summary className="flex items-center justify-between cursor-pointer">
-                    <h2 className="text-lg font-medium text-gray-900">
+                    <h2 className="text-lg font-medium text-gray-900 dark:text-gray-200">
                         Lorem ipsum dolor sit amet consectetur adipisicing?
                     </h2>
 
                     <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
+                        className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0 fill-gray-300"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -290,7 +290,7 @@ const Faq = () => {
 
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
+                        className="absolute inset-0 w-5 h-5 opacity-0 fill-gray-300 group-open:opacity-100"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -305,7 +305,7 @@ const Faq = () => {
                     </span>
                     </summary>
 
-                    <p className="mt-4 leading-relaxed text-gray-700">
+                    <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
                     molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
                     voluptate dicta quo officiis explicabo consequuntur distinctio corporis
