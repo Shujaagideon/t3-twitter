@@ -3,7 +3,7 @@ import React from 'react'
 const BlogComponent = () => {
   return (
     <div>
-        <section className="relative py-20 px-36 dark:bg-gray-900">
+        <section className="relative py-20 px-4 lg:px-36 dark:bg-gray-900">
             <img className="hidden lg:block absolute top-0 left-0 mt-20" src="https://shuffle.dev/zeus-assets/icons/dots/blue-dot-left-bars.svg" alt=""/>
             <img className="hidden lg:block absolute top-0 right-0 mt-52" src="https://shuffle.dev/zeus-assets/icons/dots/yellow-dot-right-shield.svg" alt=""/>
             <div className="container lg:px-4 mx-auto">

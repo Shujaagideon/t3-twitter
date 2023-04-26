@@ -2,7 +2,7 @@
 const ToolHero = () => {
   return (
     <div>
-        <section className="relative pt-20 px-20 md:pt-28 md:pb-28 overflow-hidden dark:bg-slate-900">
+        <section className="relative pt-20 px-4 lg:px-20 md:pt-28 md:pb-28 overflow-hidden dark:bg-slate-900">
             <div className="relative">
                 <img className="hidden lg:block absolute top-1/2 right-0 max-w-lg xl:max-w-none xl:h-200 transform -translate-y-1/2" src="https://shuffle.dev/saturn-assets/images/applications/group-app-light.png" alt=""/>
                 <div className="relative container px-4 mx-auto">
