@@ -77,7 +77,7 @@ const Faq = () => {
         </div>
 
         <div className='flex justify-center items-center py-20 dark:bg-gray-900'>
-            <div className="bg-white dark:bg-gray-800 border w-1/2 border-gray-200 dark:border-gray-600 dark:divide-gray-600  divide-y divide-gray-200 rounded-xl">
+            <div className="bg-white dark:bg-gray-800 border w-11/12 md:w-3/4 xl:w-4/6 border-gray-200 dark:border-gray-600 dark:divide-gray-600  divide-y divide-gray-200 rounded-xl">
                 <details className="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
                     <summary className="flex items-center justify-between cursor-pointer">
                     <h2 className="text-lg font-medium text-gray-900 dark:text-gray-200">

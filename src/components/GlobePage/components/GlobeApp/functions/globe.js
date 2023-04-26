@@ -20,7 +20,7 @@ export const globe = ({ scaleGroup, pivotGroup }) => {
   let meshHalo;
 
   const material = new THREE.MeshBasicMaterial({
-    color: dark ? new THREE.Color('#083344') : new THREE.Color('#e0f2fe'),
+    color: new THREE.Color('#083344'),
   });
 
   const generateGlobe = () => {
