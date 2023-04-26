@@ -13,7 +13,7 @@ export function Header() {
   return (
     <>
       <div className="relative h-24 flex justify-between items-center px-4 lg:px-10 bg-slate-50 dark:bg-gray-900">
-        <Image className="w-auto h-9 lg:12" src={rareplugLogo} alt=""/>
+        <Image className="w-auto hidden md:block h-10" src={rareplugLogo} alt=""/>
         <Nav/>
         <UserBtns/>
       </div>
